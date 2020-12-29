@@ -6,8 +6,10 @@
   display: flex;
 }
 
-.benefits-list-item:not(:last-child) {
-  margin-right: 30px;
+.benefits-list {
+  &-item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .benefits-list-title {
