@@ -3,12 +3,12 @@
 }
 .workers {
   background-color: #f5f4fa;
+  &-list {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
-.workers-list {
-  display: flex;
-  justify-content: space-between;
-}
 .workers-list-item {
   margin-bottom: 94px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),

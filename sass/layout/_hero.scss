@@ -7,6 +7,12 @@
     url("../images/hero/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  & .title-hero {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 696px;
+  }
 }
 .hero .container {
   padding-top: 200px;
@@ -22,11 +28,4 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-}
-
-.hero .title-hero {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-  width: 696px;
 }
