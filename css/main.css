@@ -196,10 +196,11 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-address-contact:not(:last-child) {
-  margin-right: 28px;
+.header-address {
+  &-contact:not(:last-child) {
+    margin-right: 28px;
+  }
 }
-
 .header-address-icon {
   margin-right: 10px;
   fill: currentColor;
@@ -248,8 +249,10 @@ img {
   display: flex;
 }
 
-.benefits-list-item:not(:last-child) {
-  margin-right: 30px;
+.benefits-list {
+  &-item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .benefits-list-title {
@@ -330,20 +333,19 @@ img {
 .workers-list {
   display: flex;
   justify-content: space-between;
-}
-
-.workers-list-item {
-  margin-bottom: 94px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-  background-color: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  overflow: hidden;
+  &-item {
+    margin-bottom: 94px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
 }
 
 .workers-content {
@@ -441,6 +443,18 @@ img {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: #2f303a;
+  &-address {
+    font-family: var(--main-font);
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 10px;
+  }
 }
 
 .footer > .container {
@@ -450,10 +464,6 @@ img {
 
 .footer-address-container {
   margin-right: 83px;
-}
-
-.footer {
-  background-color: #2f303a;
 }
 
 .logo-footer {
@@ -467,7 +477,7 @@ img {
   margin-bottom: 20px;
 }
 
-.footer-address {
+/*.footer-address {
   font-family: var(--main-font);
   font-weight: normal;
   font-style: normal;
@@ -477,7 +487,7 @@ img {
   color: #ffffff;
   display: block;
   margin-bottom: 10px;
-}
+}*/
 
 .footer-contact-mail {
   margin-bottom: 10px;
