@@ -113,16 +113,6 @@
   }
 }
 
-.backdrop-form-comment::placeholder {
-  font-family: var(--main-font);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
-
 .backdrop-form-comment {
   width: 100%;
   height: 120px;
@@ -137,6 +127,15 @@
   &:focus {
     outline: none;
     border-color: #2196f3;
+  }
+  &::placeholder {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
   }
 }
 
